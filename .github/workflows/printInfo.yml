@@ -1,4 +1,4 @@
-name: Output information
+name: Print info
 on: workflow_dispatch
 jobs:
   info:
