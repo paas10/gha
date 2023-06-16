@@ -4,5 +4,7 @@ jobs:
   info:
     runs-on: ubuntu-latest
     steps:
-      - name: Output GitHub context
-        run: echo "${{ toJSON(github) }}"
+      - name: Print greeting
+        run: echo "Hello World"
+      - name: Print goodbye
+        run: echo "Done - bye!"
